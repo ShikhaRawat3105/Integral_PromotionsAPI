@@ -1,7 +1,7 @@
 # Integral_PromotionsAPI
 Steps for running the project -
 
-1. Git clone "https://github.com/ShikhaRawat3105/AxiomAssignment.git"
+1. Git clone "https://github.com/ShikhaRawat3105/Integral_PromotionsAPI.git"
 
 2. Developed test scripts using Cucumber BDD framework.
 
