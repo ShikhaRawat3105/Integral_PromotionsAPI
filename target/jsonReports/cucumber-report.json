@@ -1,0 +1,473 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-18T20:29:34.318Z",
+        "line": 3,
+        "name": "Verify if promotions data is retreived successfully using Get Promotions API",
+        "description": "",
+        "id": "validate-get-promotions-api;verify-if-promotions-data-is-retreived-successfully-using-get-promotions-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 660962500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "GetPromotions payload with \"apikey\" as \"GDMSTGExy0sVDlZMzNDdUyZ\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"apikey\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"GDMSTGExy0sVDlZMzNDdUyZ\"",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinations.StepDefinations.get_promotions_payload_with_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1329216400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls \"GetPromotionsAPI\" with \"Get\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetPromotionsAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Get\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefinations.StepDefinations.user_calls_with_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1966200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Response HTTP Status code should be \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinations.StepDefinations.response_http_status_code_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6005400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "\"promotions\" in response body should exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"promotions\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinations.StepDefinations.in_response_body_should_exist(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3028800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"promotionId\" in response body should exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"promotionId\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinations.StepDefinations.in_response_body_should_exist(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 970000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"orderId\" in response body should exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"orderId\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinations.StepDefinations.in_response_body_should_exist(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "\"promoArea\" in response body should exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"promoArea\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinations.StepDefinations.in_response_body_should_exist(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "\"promoType\" in response body should exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"promoType\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinations.StepDefinations.in_response_body_should_exist(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1050536600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "\"showPrice\" should have value as True or false",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"showPrice\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinations.StepDefinations.should_have_value_as_true_or_false(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76003200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "\"showText\" should have value as True or false",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"showText\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinations.StepDefinations.should_have_value_as_true_or_false(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "\"localizedTexts\" should exist with “ar” and “en” json objects",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"localizedTexts\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinations.StepDefinations.should_exist_with_ar_and_en_json_objects(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-18T20:29:37.501Z",
+        "line": 17,
+        "name": "Verify promotionId be any string value and programType as EPISODE or MOVIE or SERIES or SEASON",
+        "description": "",
+        "id": "validate-get-promotions-api;verify-promotionid-be-any-string-value-and-programtype-as-episode-or-movie-or-series-or-season",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3999700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "GetPromotions payload with \"apikey\" as \"GDMSTGExy0sVDlZMzNDdUyZ\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"apikey\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"GDMSTGExy0sVDlZMzNDdUyZ\"",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinations.StepDefinations.get_promotions_payload_with_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1037103300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user calls \"GetPromotionsAPI\" with \"Get\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetPromotionsAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Get\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefinations.StepDefinations.user_calls_with_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Response HTTP Status code should be \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinations.StepDefinations.response_http_status_code_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 142002800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "\"promotionId\" should have any string value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"promotionId\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinations.StepDefinations.should_have_any_string_value(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13998500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "\"programType\" have value as as EPISODE or MOVIE or SERIES or SEASON",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"programType\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinations.StepDefinations.have_value_as_as_episode_or_movie_or_series_or_season(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-18T20:29:38.711Z",
+        "line": 25,
+        "name": "Verify invalid response for a request with invalid value passed for “apikey” query parameter",
+        "description": "",
+        "id": "validate-get-promotions-api;verify-invalid-response-for-a-request-with-invalid-value-passed-for-“apikey”-query-parameter",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16005000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "GetPromotions payload with \"apikey\" as \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"apikey\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"12345\"",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinations.StepDefinations.get_promotions_payload_with_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 333003600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user calls \"GetPromotionsAPI\" with \"Get\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetPromotionsAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Get\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefinations.StepDefinations.user_calls_with_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Response HTTP Status code should be \"403\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"403\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinations.StepDefinations.response_http_status_code_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35997700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "\"requestId\" should not be null",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"requestId\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinations.StepDefinations.should_not_be_null(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41993700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "\"code\" should be \"8001\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"code\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"8001\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinations.StepDefinations.should_be(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49007800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "\"message\" should be \"invalid api key\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"message\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"invalid api key\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinations.StepDefinations.should_be(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Validate Get Promotions API",
+    "description": "",
+    "id": "validate-get-promotions-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/promotions.feature",
+    "tags": []
+  }
+]

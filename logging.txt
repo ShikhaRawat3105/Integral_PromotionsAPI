@@ -1,0 +1,30 @@
+Request method:	GET
+Request URI:	http://api.intigral-ott.net/popcorn-api-rs-7.9.10/v1/promotions?apikey=12345
+Proxy:			<none>
+Request params:	<none>
+Query params:	apikey=12345
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 403 Forbidden
+Date: Mon, 18 Jan 2021 20:30:03 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+_ppcExecutionTimeMilliSeconds: 1.0
+_ppcExecutionTimeSeconds: 0.001
+_ppcRequestId: ddb3a83b-fbac-4811-8b70-99200b16a4ba
+_ppcRequestTime: 2021-01-18 20:30:02.999
+_ppcResponseTime: 2021-01-18 20:30:03.000
+
+{
+    "error": {
+        "message": "invalid api key",
+        "code": "8001",
+        "requestId": "ddb3a83b-fbac-4811-8b70-99200b16a4ba"
+    }
+}
