@@ -27,7 +27,7 @@ public class StepDefinations extends Utils {
 	@Given("GetPromotions payload with {string} as {string}")
 	public void get_promotions_payload_with_as(String apikey, String keyvalue) throws IOException {
 
-		res = given().spec(requestSpecification(apikey, keyvalue));
+		res = given().spec(requestSpecification()).queryParam(apikey, keyvalue);
 	}
 
 	@When("user calls {string} with {string} http request")
@@ -136,7 +136,7 @@ public class StepDefinations extends Utils {
 
 	@Then("{string} should be {string}")
 	public void should_be(String key, String value) {
-		
+
 		JsonPath js = getJsonPath(response);
 		assertEquals(js.get("error." + key + "").toString(), value);
 

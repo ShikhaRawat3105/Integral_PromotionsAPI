@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-01-18T20:29:34.318Z",
+        "start_timestamp": "2021-01-20T05:00:03.020Z",
         "line": 3,
         "name": "Verify if promotions data is retreived successfully using Get Promotions API",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 660962500,
+              "duration": 1093870900,
               "status": "passed"
             },
             "line": 4,
@@ -35,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 1329216400,
+              "duration": 1717229400,
               "status": "passed"
             },
             "line": 5,
@@ -57,7 +57,7 @@
           },
           {
             "result": {
-              "duration": 1966200,
+              "duration": 999500,
               "status": "passed"
             },
             "line": 6,
@@ -75,7 +75,7 @@
           },
           {
             "result": {
-              "duration": 6005400,
+              "duration": 8352100,
               "status": "passed"
             },
             "line": 7,
@@ -93,7 +93,7 @@
           },
           {
             "result": {
-              "duration": 3028800,
+              "duration": 2647900,
               "status": "passed"
             },
             "line": 8,
@@ -111,7 +111,7 @@
           },
           {
             "result": {
-              "duration": 970000,
+              "duration": 1998900,
               "status": "passed"
             },
             "line": 9,
@@ -129,7 +129,7 @@
           },
           {
             "result": {
-              "duration": 1000400,
+              "duration": 1000500,
               "status": "passed"
             },
             "line": 10,
@@ -147,7 +147,7 @@
           },
           {
             "result": {
-              "duration": 998900,
+              "duration": 2251400,
               "status": "passed"
             },
             "line": 11,
@@ -165,7 +165,7 @@
           },
           {
             "result": {
-              "duration": 1050536600,
+              "duration": 843570600,
               "status": "passed"
             },
             "line": 12,
@@ -183,7 +183,7 @@
           },
           {
             "result": {
-              "duration": 76003200,
+              "duration": 123512400,
               "status": "passed"
             },
             "line": 13,
@@ -201,6 +201,7 @@
           },
           {
             "result": {
+              "duration": 1550700,
               "status": "passed"
             },
             "line": 14,
@@ -219,7 +220,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-18T20:29:37.501Z",
+        "start_timestamp": "2021-01-20T05:00:06.912Z",
         "line": 17,
         "name": "Verify promotionId be any string value and programType as EPISODE or MOVIE or SERIES or SEASON",
         "description": "",
@@ -229,7 +230,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3999700,
+              "duration": 2000300,
               "status": "passed"
             },
             "line": 18,
@@ -251,7 +252,7 @@
           },
           {
             "result": {
-              "duration": 1037103300,
+              "duration": 822872700,
               "status": "passed"
             },
             "line": 19,
@@ -273,7 +274,7 @@
           },
           {
             "result": {
-              "duration": 999100,
+              "duration": 982000,
               "status": "passed"
             },
             "line": 20,
@@ -291,7 +292,7 @@
           },
           {
             "result": {
-              "duration": 142002800,
+              "duration": 67222900,
               "status": "passed"
             },
             "line": 21,
@@ -309,7 +310,7 @@
           },
           {
             "result": {
-              "duration": 13998500,
+              "duration": 857000,
               "status": "passed"
             },
             "line": 22,
@@ -328,7 +329,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-18T20:29:38.711Z",
+        "start_timestamp": "2021-01-20T05:00:07.814Z",
         "line": 25,
         "name": "Verify invalid response for a request with invalid value passed for “apikey” query parameter",
         "description": "",
@@ -338,7 +339,7 @@
         "steps": [
           {
             "result": {
-              "duration": 16005000,
+              "duration": 995800,
               "status": "passed"
             },
             "line": 26,
@@ -360,7 +361,7 @@
           },
           {
             "result": {
-              "duration": 333003600,
+              "duration": 384561700,
               "status": "passed"
             },
             "line": 27,
@@ -382,7 +383,6 @@
           },
           {
             "result": {
-              "duration": 997000,
               "status": "passed"
             },
             "line": 28,
@@ -400,7 +400,7 @@
           },
           {
             "result": {
-              "duration": 35997700,
+              "duration": 21830600,
               "status": "passed"
             },
             "line": 29,
@@ -418,7 +418,7 @@
           },
           {
             "result": {
-              "duration": 41993700,
+              "duration": 14956400,
               "status": "passed"
             },
             "line": 30,
@@ -440,7 +440,7 @@
           },
           {
             "result": {
-              "duration": 49007800,
+              "duration": 13006500,
               "status": "passed"
             },
             "line": 31,

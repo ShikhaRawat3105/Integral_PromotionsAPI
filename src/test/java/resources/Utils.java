@@ -16,11 +16,15 @@ public class Utils {
 
 	public static RequestSpecification req;
 
-	public RequestSpecification requestSpecification(String apikey, String keyvalue) throws IOException {
-		PrintStream log = new PrintStream(new FileOutputStream("logging.txt"));
-		req = new RequestSpecBuilder().setBaseUri(getGlobalValue("BaseUrI")).addQueryParam(apikey, keyvalue)
-				.addFilter(RequestLoggingFilter.logRequestTo(log)).addFilter(ResponseLoggingFilter.logResponseTo(log))
-				.build();
+	public RequestSpecification requestSpecification() throws IOException {
+		if (req == null) {
+			PrintStream log = new PrintStream(new FileOutputStream("logging.txt"));
+			req = new RequestSpecBuilder().setBaseUri(getGlobalValue("BaseUrI"))
+					.addFilter(RequestLoggingFilter.logRequestTo(log))
+					.addFilter(ResponseLoggingFilter.logResponseTo(log)).build();
+
+			return req;
+		}
 		return req;
 	}
 
